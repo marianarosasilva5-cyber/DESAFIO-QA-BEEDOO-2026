@@ -16,17 +16,17 @@ Esses dois fluxos representam a funcionalidade central da aplicação, já que t
 - Quais pontos do sistema você considera mais críticos para teste?
 Durante a exploração da aplicação, alguns pontos chamaram mais atenção e foram priorizados na criação dos cenários de teste.
 
-Cadastro de cursos
+Cadastro de cursos:
 O formulário de cadastro é um ponto crítico porque é nele que os dados são inseridos no sistema. Por isso, é importante validar:
 comportamento dos campos obrigatórios
 tratamento de campos vazios
 validação de formatos de dados
 comportamento ao inserir valores inesperados
 
-Persistência das informações
+Persistência das informações:
 Outro ponto importante é garantir que os cursos cadastrados realmente apareçam na listagem após o cadastro, garantindo que os dados estejam sendo corretamente registrados e exibidos na aplicação.
 
-Listagem de cursos
+Listagem de cursos:
 A tela de listagem também foi considerada relevante para testes, pois ela representa o retorno visual das informações cadastradas. É importante validar se:
 os cursos aparecem corretamente após o cadastro
 a lista se atualiza conforme esperado
