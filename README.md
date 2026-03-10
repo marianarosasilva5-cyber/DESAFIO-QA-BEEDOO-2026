@@ -40,13 +40,13 @@ o sistema lida corretamente com cenários onde não existem cursos cadastrados.
   Para a criação dos cenários de teste, considerei principalmente os fluxos principais da aplicação e os comportamentos esperados pelo usuário.
 Os testes foram elaborados contemplando:
 
-cenários positivos, garantindo que o fluxo principal funcione corretamente
+-- cenários positivos, garantindo que o fluxo principal funcione corretamente
 
-cenários negativos, simulando entradas inválidas ou comportamentos inesperados
+-- cenários negativos, simulando entradas inválidas ou comportamentos inesperados
 
-validações de campos do formulário
+-- validações de campos do formulário
 
-comportamento da listagem após a criação de novos cursos
+-- comportamento da listagem após a criação de novos cursos
 
 Além dos testes baseados em cenários previamente definidos, também utilizei uma abordagem exploratória durante a navegação pela aplicação, buscando identificar possíveis comportamentos inesperados ou inconsistências.
 
